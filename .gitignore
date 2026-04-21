@@ -1,0 +1,13 @@
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/yolov8n.pt
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# General
+.DS_Store
+*.log
