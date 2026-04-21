@@ -1,8 +1,7 @@
 import { useRef, useState, useEffect, useCallback } from "react"
 import ResultCard from "../components/ResultCard"
 
-const WS_URL = "ws://127.0.0.1:8000/ws/detect"
-
+const WS_URL = "wss://luggage-recognition-api.onrender.com/ws/detect"
 const SectionLabel = ({ children }) => (
   <div style={{
     fontFamily: 'var(--font-mono)', fontSize: 10, letterSpacing: '0.15em',
