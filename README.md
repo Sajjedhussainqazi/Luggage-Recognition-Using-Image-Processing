@@ -12,6 +12,8 @@
 
 *MCA Final Year Project — Baba Ghulam Shah Badshah University, Rajouri*
 
+### 🌐 [Live Demo](https://luggage-recognition-using-image-pro.vercel.app/) &nbsp;|&nbsp; 🔌 [API](https://luggage-recognition-api.onrender.com) &nbsp;|&nbsp; 📄 [API Docs](https://luggage-recognition-api.onrender.com/docs)
+
 </div>
 
 ---
@@ -174,6 +176,8 @@ Frontend runs at → `http://localhost:5173`
 | POST | `/detect/image` | Detect luggage in uploaded image |
 | WS | `/ws/detect` | Live webcam/CCTV frame detection |
 
+> Full interactive API docs → [https://luggage-recognition-api.onrender.com/docs](https://luggage-recognition-api.onrender.com/docs)
+
 ---
 
 ## 🧠 Detection Logic
@@ -190,10 +194,15 @@ The system uses a two-stage matching pipeline:
 
 ---
 
-## 📸 Screenshots
+## 🌐 Live Deployment
 
-> Upload & Scan — Register lost bag and scan images
-> Live Detection — Real-time CCTV monitoring with match alerts
+| Service | URL |
+|---|---|
+| 🖥️ Frontend (Vercel) | [https://luggage-recognition-using-image-pro.vercel.app](https://luggage-recognition-using-image-pro.vercel.app) |
+| 🔌 Backend API (Render) | [https://luggage-recognition-api.onrender.com](https://luggage-recognition-api.onrender.com) |
+| 📄 API Documentation | [https://luggage-recognition-api.onrender.com/docs](https://luggage-recognition-api.onrender.com/docs) |
+
+> ⚠️ Backend is hosted on Render free tier — first request may take 30–60 seconds to wake up.
 
 ---
 
@@ -225,4 +234,4 @@ This project is open source and available under the [MIT License](LICENSE).
 <div align="center">
   <p>Built with ❤️ as MCA Final Year Project</p>
   <p>⭐ Star this repo if you found it useful!</p>
-</div>00000000
+</div>
