@@ -1,7 +1,7 @@
 import { useState, useRef } from "react"
 import ResultCard from "../components/ResultCard"
 
-const API_URL = "http://127.0.0.1:8000"
+const API_URL = "https://luggage-recognition-api.onrender.com"
 
 const SectionLabel = ({ children }) => (
   <div style={{
